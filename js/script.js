@@ -2,9 +2,9 @@
 // https://flynn.boolean.careers/exercises/api/random/mail
 // generare 10 indirizzi email e stamparli in pagina all'interno di una lista.
 
-const titleElem = document.querySelector(h1);
+const titleElem = document.querySelector(".title");
 
-for (let i = 0; i <= 10; i++){
+//for (let i = 0; i <= 10; i++){
     const apiURL = "https://flynn.boolean.careers/exercises/api/random/mail";
 
     axios
@@ -14,4 +14,6 @@ for (let i = 0; i <= 10; i++){
         titleElem.innerHTML = randomEmail;
         console.log(randomEmail);
     })
-}
+//}
+
+//non funziona axios
