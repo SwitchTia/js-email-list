@@ -4,7 +4,7 @@
 
 const titleElem = document.querySelector(".title");
 
-//for (let i = 0; i <= 10; i++){
+for (let i = 0; i <= 10; i++){
     const apiURL = "https://flynn.boolean.careers/exercises/api/random/mail";
 
     axios
@@ -14,6 +14,6 @@ const titleElem = document.querySelector(".title");
         titleElem.innerHTML = randomEmail;
         console.log(randomEmail);
     })
-//}
+}
 
 //non funziona axios
